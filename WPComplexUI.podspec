@@ -8,16 +8,18 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = 'https://github.com/WHeB/WPComplexUI'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'WHeB' => 'wpeng0407@hotmail.com' }
+  s.author           = { 'WHeB' => '1193325271@qq.com' }
   s.source           = { :git => 'https://github.com/WHeB/WPComplexUI.git', :tag => s.version.to_s }
   s.swift_version = '4.0'
   s.ios.deployment_target = '9.0'
   # 集成的库
   s.dependency 'TZImagePickerController'
-  s.dependency 'FSPagerView'
+  s.dependency 'FSPagerView', '0.8.2'
   
   
   s.source_files = 'WPComplexUI/Classes/**/*'
+  
+  
   
   
 end

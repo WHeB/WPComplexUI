@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A3257822E6405F44DD807BF97DBD292 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5698E108BCF680DBEFAC7871FD58A481 /* ReplaceMe.swift */; };
+		5CC41FDA254189C51DB36550EFF5BC39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		61F6411F4EFA7D40FCA3E00161E6B3BF /* WPComplexUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C89B32BA84527D703147845A1FFD32 /* WPComplexUI-dummy.m */; };
+		71DE6CDCC161915D6B8F1D2C40598417 /* WPComplexUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 273732D7CC49C7723122C0BB53518C16 /* WPComplexUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B416BE92B730D30669E45244A17021C /* Pods-WPComplexUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95AA1FF211D6234ABD3302E2C94F64C2 /* Pods-WPComplexUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2C6543D0D484D92A9CB6079F20DA180 /* Pods-WPComplexUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B177A53177E0AED7F87DB4BA5BF6F74 /* Pods-WPComplexUI_Tests-dummy.m */; };
+		B07C0453ACF0117F3142189605266CD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C0FD59648FD23372376B77A3C0E79B08 /* Pods-WPComplexUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36F9DBC037A2CB1771757A0EE45C220E /* Pods-WPComplexUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCFF38F2544123CD91F1BC4FE0BC3B6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E0E148A06DD95A9D0DF03ED42064E5B5 /* Pods-WPComplexUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3072900F188DECA0120F35C7F1B473 /* Pods-WPComplexUI_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BBD77AD74B03A0DFC0D1ECAD8AF0C75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 686104618EDE86C1008D68C1310EC4DD;
+			remoteInfo = WPComplexUI;
+		};
+		F1BFCC78ED0E2A36B5DFA7E12FE4E770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 307D7BAFFA376C91F3BD590D3AC7B3F1;
+			remoteInfo = "Pods-WPComplexUI_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AE960E85BC4CACA25BB36989348C42 /* Pods_WPComplexUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPComplexUI_Example.framework; path = "Pods-WPComplexUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF8114D9587C057AA16E41DDFC46016 /* Pods-WPComplexUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPComplexUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		26A203710674E08083CFB59C02A4BA96 /* Pods_WPComplexUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WPComplexUI_Tests.framework; path = "Pods-WPComplexUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		273732D7CC49C7723122C0BB53518C16 /* WPComplexUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPComplexUI-umbrella.h"; sourceTree = "<group>"; };
+		2A3072900F188DECA0120F35C7F1B473 /* Pods-WPComplexUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPComplexUI_Example-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35F44047A72B64B699116A099FDA7074 /* WPComplexUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WPComplexUI.framework; path = WPComplexUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F9DBC037A2CB1771757A0EE45C220E /* Pods-WPComplexUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPComplexUI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		383F8E8A5A78B7AA6F10A48CB8D25D40 /* Pods-WPComplexUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPComplexUI_Tests.modulemap"; sourceTree = "<group>"; };
+		5698E108BCF680DBEFAC7871FD58A481 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WPComplexUI/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		5EDE4323A0A647553DB29A2FE45CED59 /* Pods-WPComplexUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPComplexUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BBB17F9E118CAE5FF108B67142A76D9 /* Pods-WPComplexUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WPComplexUI_Example.modulemap"; sourceTree = "<group>"; };
+		75FAABD932505115CBA18451CC61D03F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		778EC2E085C73F0B2C2AC34473B4D102 /* WPComplexUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WPComplexUI-prefix.pch"; sourceTree = "<group>"; };
+		7D10DD43142E3520E87A8B1C90C9F20B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		82059467B6B5CB669815648351D93C58 /* Pods-WPComplexUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPComplexUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8B177A53177E0AED7F87DB4BA5BF6F74 /* Pods-WPComplexUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WPComplexUI_Tests-dummy.m"; sourceTree = "<group>"; };
+		95AA1FF211D6234ABD3302E2C94F64C2 /* Pods-WPComplexUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WPComplexUI_Example-umbrella.h"; sourceTree = "<group>"; };
+		9A0A1419D792C81C920BE7837013938D /* Pods-WPComplexUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WPComplexUI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A19539A3032CD2346E98677D413F0CB5 /* Pods-WPComplexUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPComplexUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC5C398F34B40DF2C1EB6DBDFC298B8A /* Pods-WPComplexUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPComplexUI_Tests-Info.plist"; sourceTree = "<group>"; };
+		AFBBACF08AC82F5F49191C59D1F3039A /* Pods-WPComplexUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPComplexUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B6BF0AE2A376A11D15F4E8840A4BCB0B /* Pods-WPComplexUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPComplexUI_Example-Info.plist"; sourceTree = "<group>"; };
+		C9EEF0F9BCC57F9A1A753D27BB0C4D06 /* WPComplexUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WPComplexUI.xcconfig; sourceTree = "<group>"; };
+		CD35EC2EF40906F5B074C327A094F5CF /* Pods-WPComplexUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WPComplexUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD68A7B3BD8FD6332E8C7A67415195AF /* WPComplexUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WPComplexUI-Info.plist"; sourceTree = "<group>"; };
+		DB1E41EA51E0C88339FC989EC0C44FC4 /* WPComplexUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WPComplexUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DF7CB5020D16FCE1F26C1871D279A1BF /* Pods-WPComplexUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WPComplexUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2C89B32BA84527D703147845A1FFD32 /* WPComplexUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WPComplexUI-dummy.m"; sourceTree = "<group>"; };
+		E388E82DD58643D87CC2AAC7F32F02A9 /* Pods-WPComplexUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WPComplexUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F83D34D509DBD1D0F5C4E34D7C624CE9 /* WPComplexUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WPComplexUI.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73915C3DFEF39ED3F931640AE22BE8FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC41FDA254189C51DB36550EFF5BC39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F9BCBF389AF9687A2107DAFC3A4A4EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B07C0453ACF0117F3142189605266CD7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB1B7BE9C82065C2421837530F3C140A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFF38F2544123CD91F1BC4FE0BC3B6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		119A2A2312615A344C0293083749EFE8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E3445FEEF9D445B104E389E3404B64 /* Pods-WPComplexUI_Example */,
+				DAF08BBB998C79A83296E4BDFB13DFB9 /* Pods-WPComplexUI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		17030A91754594B087FE5D03A40751C1 /* WPComplexUI */ = {
+			isa = PBXGroup;
+			children = (
+				5698E108BCF680DBEFAC7871FD58A481 /* ReplaceMe.swift */,
+				2B329B019687053D37AA6EDD8E3F74B1 /* Pod */,
+				465DAB704386B074C4B0F2A78D78A20D /* Support Files */,
+			);
+			name = WPComplexUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2B329B019687053D37AA6EDD8E3F74B1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7D10DD43142E3520E87A8B1C90C9F20B /* LICENSE */,
+				75FAABD932505115CBA18451CC61D03F /* README.md */,
+				DB1E41EA51E0C88339FC989EC0C44FC4 /* WPComplexUI.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		465DAB704386B074C4B0F2A78D78A20D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F83D34D509DBD1D0F5C4E34D7C624CE9 /* WPComplexUI.modulemap */,
+				C9EEF0F9BCC57F9A1A753D27BB0C4D06 /* WPComplexUI.xcconfig */,
+				E2C89B32BA84527D703147845A1FFD32 /* WPComplexUI-dummy.m */,
+				CD68A7B3BD8FD6332E8C7A67415195AF /* WPComplexUI-Info.plist */,
+				778EC2E085C73F0B2C2AC34473B4D102 /* WPComplexUI-prefix.pch */,
+				273732D7CC49C7723122C0BB53518C16 /* WPComplexUI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WPComplexUI";
+			sourceTree = "<group>";
+		};
+		5A08BB2CC71FE09EE8504E85A7821A00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AE960E85BC4CACA25BB36989348C42 /* Pods_WPComplexUI_Example.framework */,
+				26A203710674E08083CFB59C02A4BA96 /* Pods_WPComplexUI_Tests.framework */,
+				35F44047A72B64B699116A099FDA7074 /* WPComplexUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87E3445FEEF9D445B104E389E3404B64 /* Pods-WPComplexUI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6BBB17F9E118CAE5FF108B67142A76D9 /* Pods-WPComplexUI_Example.modulemap */,
+				A19539A3032CD2346E98677D413F0CB5 /* Pods-WPComplexUI_Example-acknowledgements.markdown */,
+				5EDE4323A0A647553DB29A2FE45CED59 /* Pods-WPComplexUI_Example-acknowledgements.plist */,
+				2A3072900F188DECA0120F35C7F1B473 /* Pods-WPComplexUI_Example-dummy.m */,
+				9A0A1419D792C81C920BE7837013938D /* Pods-WPComplexUI_Example-frameworks.sh */,
+				B6BF0AE2A376A11D15F4E8840A4BCB0B /* Pods-WPComplexUI_Example-Info.plist */,
+				95AA1FF211D6234ABD3302E2C94F64C2 /* Pods-WPComplexUI_Example-umbrella.h */,
+				82059467B6B5CB669815648351D93C58 /* Pods-WPComplexUI_Example.debug.xcconfig */,
+				AFBBACF08AC82F5F49191C59D1F3039A /* Pods-WPComplexUI_Example.release.xcconfig */,
+			);
+			name = "Pods-WPComplexUI_Example";
+			path = "Target Support Files/Pods-WPComplexUI_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FD41D7809F1890705C8D003DADB5CF63 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5A08BB2CC71FE09EE8504E85A7821A00 /* Products */,
+				119A2A2312615A344C0293083749EFE8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAF08BBB998C79A83296E4BDFB13DFB9 /* Pods-WPComplexUI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				383F8E8A5A78B7AA6F10A48CB8D25D40 /* Pods-WPComplexUI_Tests.modulemap */,
+				E388E82DD58643D87CC2AAC7F32F02A9 /* Pods-WPComplexUI_Tests-acknowledgements.markdown */,
+				DF7CB5020D16FCE1F26C1871D279A1BF /* Pods-WPComplexUI_Tests-acknowledgements.plist */,
+				8B177A53177E0AED7F87DB4BA5BF6F74 /* Pods-WPComplexUI_Tests-dummy.m */,
+				AC5C398F34B40DF2C1EB6DBDFC298B8A /* Pods-WPComplexUI_Tests-Info.plist */,
+				36F9DBC037A2CB1771757A0EE45C220E /* Pods-WPComplexUI_Tests-umbrella.h */,
+				CD35EC2EF40906F5B074C327A094F5CF /* Pods-WPComplexUI_Tests.debug.xcconfig */,
+				0AF8114D9587C057AA16E41DDFC46016 /* Pods-WPComplexUI_Tests.release.xcconfig */,
+			);
+			name = "Pods-WPComplexUI_Tests";
+			path = "Target Support Files/Pods-WPComplexUI_Tests";
+			sourceTree = "<group>";
+		};
+		FD41D7809F1890705C8D003DADB5CF63 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17030A91754594B087FE5D03A40751C1 /* WPComplexUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19D82D7A2995813F4F40972A92007D5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B416BE92B730D30669E45244A17021C /* Pods-WPComplexUI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C72706D54888D1072806FC73EBFB264C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71DE6CDCC161915D6B8F1D2C40598417 /* WPComplexUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD7ED8DF2F066A105465B41E1A0A05B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FD59648FD23372376B77A3C0E79B08 /* Pods-WPComplexUI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		307D7BAFFA376C91F3BD590D3AC7B3F1 /* Pods-WPComplexUI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E160F57DEE7155E702E13136ECE7666 /* Build configuration list for PBXNativeTarget "Pods-WPComplexUI_Example" */;
+			buildPhases = (
+				19D82D7A2995813F4F40972A92007D5F /* Headers */,
+				7EA46D1B00900E133DF0D3CF3CCD30BA /* Sources */,
+				73915C3DFEF39ED3F931640AE22BE8FF /* Frameworks */,
+				A12252766ED22E9411F6EB6200E05967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				486771BF6F9C3E37F74B5771D5915B78 /* PBXTargetDependency */,
+			);
+			name = "Pods-WPComplexUI_Example";
+			productName = "Pods-WPComplexUI_Example";
+			productReference = 04AE960E85BC4CACA25BB36989348C42 /* Pods_WPComplexUI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		686104618EDE86C1008D68C1310EC4DD /* WPComplexUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92164A682E9C0A049A0146BD4144BC74 /* Build configuration list for PBXNativeTarget "WPComplexUI" */;
+			buildPhases = (
+				C72706D54888D1072806FC73EBFB264C /* Headers */,
+				49CB21560514167D0E9EE8FBA5494D2F /* Sources */,
+				CB1B7BE9C82065C2421837530F3C140A /* Frameworks */,
+				7E3550C56141B0E90FE9D721104AABF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPComplexUI;
+			productName = WPComplexUI;
+			productReference = 35F44047A72B64B699116A099FDA7074 /* WPComplexUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E9D515532BD3A3B59AB59ECC03D6A94 /* Pods-WPComplexUI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0393873B499A19C42F9D1CD404BCEE60 /* Build configuration list for PBXNativeTarget "Pods-WPComplexUI_Tests" */;
+			buildPhases = (
+				CCD7ED8DF2F066A105465B41E1A0A05B /* Headers */,
+				368D368F5C8A8464883C6F4FE2419415 /* Sources */,
+				7F9BCBF389AF9687A2107DAFC3A4A4EF /* Frameworks */,
+				776E75ABCD51DBD95A1F98B201B7E30B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE4DC99F64B2EEB52A17D007643B3110 /* PBXTargetDependency */,
+			);
+			name = "Pods-WPComplexUI_Tests";
+			productName = "Pods-WPComplexUI_Tests";
+			productReference = 26A203710674E08083CFB59C02A4BA96 /* Pods_WPComplexUI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5A08BB2CC71FE09EE8504E85A7821A00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				307D7BAFFA376C91F3BD590D3AC7B3F1 /* Pods-WPComplexUI_Example */,
+				8E9D515532BD3A3B59AB59ECC03D6A94 /* Pods-WPComplexUI_Tests */,
+				686104618EDE86C1008D68C1310EC4DD /* WPComplexUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		776E75ABCD51DBD95A1F98B201B7E30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E3550C56141B0E90FE9D721104AABF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12252766ED22E9411F6EB6200E05967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		368D368F5C8A8464883C6F4FE2419415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C6543D0D484D92A9CB6079F20DA180 /* Pods-WPComplexUI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CB21560514167D0E9EE8FBA5494D2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3257822E6405F44DD807BF97DBD292 /* ReplaceMe.swift in Sources */,
+				61F6411F4EFA7D40FCA3E00161E6B3BF /* WPComplexUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EA46D1B00900E133DF0D3CF3CCD30BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E148A06DD95A9D0DF03ED42064E5B5 /* Pods-WPComplexUI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		486771BF6F9C3E37F74B5771D5915B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WPComplexUI;
+			target = 686104618EDE86C1008D68C1310EC4DD /* WPComplexUI */;
+			targetProxy = 0BBD77AD74B03A0DFC0D1ECAD8AF0C75 /* PBXContainerItemProxy */;
+		};
+		AE4DC99F64B2EEB52A17D007643B3110 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WPComplexUI_Example";
+			target = 307D7BAFFA376C91F3BD590D3AC7B3F1 /* Pods-WPComplexUI_Example */;
+			targetProxy = F1BFCC78ED0E2A36B5DFA7E12FE4E770 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45E6CAE940E0CEE9E46A70BBCB1178FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9EEF0F9BCC57F9A1A753D27BB0C4D06 /* WPComplexUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WPComplexUI/WPComplexUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WPComplexUI/WPComplexUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WPComplexUI/WPComplexUI.modulemap";
+				PRODUCT_MODULE_NAME = WPComplexUI;
+				PRODUCT_NAME = WPComplexUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F114A6A4506F56E46779F4165D65758 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9EEF0F9BCC57F9A1A753D27BB0C4D06 /* WPComplexUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WPComplexUI/WPComplexUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WPComplexUI/WPComplexUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WPComplexUI/WPComplexUI.modulemap";
+				PRODUCT_MODULE_NAME = WPComplexUI;
+				PRODUCT_NAME = WPComplexUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6728D4BDADF0769063A86D0A553DA68E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82059467B6B5CB669815648351D93C58 /* Pods-WPComplexUI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPComplexUI_Example/Pods-WPComplexUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPComplexUI_Example/Pods-WPComplexUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87C8CFF92DE54C2D5D34B4B5B08B9161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AF8114D9587C057AA16E41DDFC46016 /* Pods-WPComplexUI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPComplexUI_Tests/Pods-WPComplexUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPComplexUI_Tests/Pods-WPComplexUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9EF806B90775BDDEAF6369A6C8FE69B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFBBACF08AC82F5F49191C59D1F3039A /* Pods-WPComplexUI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPComplexUI_Example/Pods-WPComplexUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPComplexUI_Example/Pods-WPComplexUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E4D1E198EAB9AB51B3C8E5DF11001EF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD35EC2EF40906F5B074C327A094F5CF /* Pods-WPComplexUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WPComplexUI_Tests/Pods-WPComplexUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WPComplexUI_Tests/Pods-WPComplexUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0393873B499A19C42F9D1CD404BCEE60 /* Build configuration list for PBXNativeTarget "Pods-WPComplexUI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4D1E198EAB9AB51B3C8E5DF11001EF7 /* Debug */,
+				87C8CFF92DE54C2D5D34B4B5B08B9161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E160F57DEE7155E702E13136ECE7666 /* Build configuration list for PBXNativeTarget "Pods-WPComplexUI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6728D4BDADF0769063A86D0A553DA68E /* Debug */,
+				9EF806B90775BDDEAF6369A6C8FE69B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92164A682E9C0A049A0146BD4144BC74 /* Build configuration list for PBXNativeTarget "WPComplexUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E6CAE940E0CEE9E46A70BBCB1178FC /* Debug */,
+				4F114A6A4506F56E46779F4165D65758 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

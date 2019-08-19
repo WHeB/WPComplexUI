@@ -1,0 +1,16 @@
+PODS:
+  - WPComplexUI (0.1.0)
+
+DEPENDENCIES:
+  - WPComplexUI (from `../`)
+
+EXTERNAL SOURCES:
+  WPComplexUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WPComplexUI: cbcc654f155d16b85a88ae6441da2490ebd40fe7
+
+PODFILE CHECKSUM: 6d49618bd676fadf2eee0d439a224c058d63c085
+
+COCOAPODS: 1.7.4

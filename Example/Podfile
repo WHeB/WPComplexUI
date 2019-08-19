@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WPComplexUI_Example' do
+  pod 'WPComplexUI', :path => '../'
+
+  target 'WPComplexUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

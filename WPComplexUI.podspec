@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WPComplexUI'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '一些较复杂UI集合'
   s.description      = <<-DESC
                         一些较复杂UI集合
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   # 集成的库
   s.dependency 'TZImagePickerController'
   s.dependency 'FSPagerView', '0.8.2'
-  
+  s.dependency 'YYText'
   
   s.source_files = 'WPComplexUI/Classes/**/*'
   
